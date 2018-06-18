@@ -1,0 +1,730 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Scenes/Tap/tap.gd" type="Script" id=1]
+[ext_resource path="res://Images/button2_3.png" type="Texture" id=2]
+[ext_resource path="res://Images/button1_3.png" type="Texture" id=3]
+[ext_resource path="res://Images/button4_3.png" type="Texture" id=4]
+[ext_resource path="res://Images/button3_3.png" type="Texture" id=5]
+
+[node name="Tap" type="Node2D" index="0"]
+
+script = ExtResource( 1 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="Bar" type="Node2D" parent="." index="0"]
+
+position = Vector2( 64, 144 )
+
+[node name="dark" type="Node2D" parent="Bar" index="0"]
+
+[node name="ColorRect" type="ColorRect" parent="Bar/dark" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 16.0
+margin_top = 16.0
+margin_right = 464.0
+margin_bottom = 112.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+color = Color( 0.545098, 0.6, 0.298039, 1 )
+
+[node name="ColorRect3" type="ColorRect" parent="Bar/dark" index="1"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 48.0
+margin_top = -64.0
+margin_right = 416.0
+margin_bottom = -16.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+color = Color( 0.545098, 0.6, 0.298039, 1 )
+
+[node name="ColorRect4" type="ColorRect" parent="Bar/dark" index="2"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 352.0
+margin_top = -160.0
+margin_right = 464.0
+margin_bottom = -16.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+color = Color( 0.545098, 0.6, 0.298039, 1 )
+
+[node name="ColorRect5" type="ColorRect" parent="Bar/dark" index="3"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 16.0
+margin_top = -160.0
+margin_right = 128.0
+margin_bottom = -16.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+color = Color( 0.545098, 0.6, 0.298039, 1 )
+
+[node name="ColorRect6" type="ColorRect" parent="Bar/dark" index="4"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 192.0
+margin_top = -80.0
+margin_right = 288.0
+margin_bottom = 48.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+color = Color( 0.545098, 0.6, 0.298039, 1 )
+
+[node name="ligh" type="Node2D" parent="Bar" index="1"]
+
+[node name="ColorRect2" type="ColorRect" parent="Bar/ligh" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 32.0
+margin_top = 32.0
+margin_right = 448.0
+margin_bottom = 96.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+color = Color( 0.858824, 0.92549, 0.611765, 1 )
+
+[node name="ColorRect7" type="ColorRect" parent="Bar/ligh" index="1"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 208.0
+margin_top = -64.0
+margin_right = 272.0
+margin_bottom = 96.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+color = Color( 0.858824, 0.92549, 0.611765, 1 )
+
+[node name="water" type="Node2D" parent="Bar" index="2"]
+
+visible = false
+
+[node name="ColorRect8" type="ColorRect" parent="Bar/water" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 16.0
+margin_top = -48.0
+margin_right = 48.0
+margin_bottom = -16.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+color = Color( 1, 0.2, 0.2, 1 )
+
+[node name="ColorRect9" type="ColorRect" parent="Bar/water" index="1"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 432.0
+margin_top = -48.0
+margin_right = 464.0
+margin_bottom = -16.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+color = Color( 0.2, 0.2, 1, 1 )
+
+[node name="Handles" type="Node2D" parent="." index="1"]
+
+_sections_unfolded = [ "Rect" ]
+
+[node name="add_hot" type="Button" parent="Handles" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 144.0
+margin_right = 176.0
+margin_bottom = 64.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+icon = ExtResource( 2 )
+flat = false
+align = 1
+
+[node name="sub_hot" type="Button" parent="Handles" index="1"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 96.0
+margin_right = 128.0
+margin_bottom = 64.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+icon = ExtResource( 3 )
+flat = false
+align = 1
+_sections_unfolded = [ "Rect" ]
+
+[node name="add_cold" type="Button" parent="Handles" index="2"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 480.0
+margin_right = 512.0
+margin_bottom = 64.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+icon = ExtResource( 4 )
+flat = false
+align = 1
+
+[node name="sub_cold" type="Button" parent="Handles" index="3"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 432.0
+margin_right = 464.0
+margin_bottom = 64.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+icon = ExtResource( 5 )
+flat = false
+align = 1
+
+[node name="add_green" type="Button" parent="Handles" index="4"]
+
+visible = false
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 256.0
+margin_right = 288.0
+margin_bottom = 64.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+flat = false
+align = 1
+
+[node name="sub_green" type="Button" parent="Handles" index="5"]
+
+visible = false
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 304.0
+margin_right = 336.0
+margin_bottom = 64.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+flat = false
+align = 1
+
+[node name="Flow" type="Node2D" parent="." index="2"]
+
+_sections_unfolded = [ "Rect" ]
+
+[node name="Panel_HOT" type="Panel" parent="Flow" index="0"]
+
+editor/display_folded = true
+visible = false
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 80.0
+margin_top = -32.0
+margin_right = 192.0
+margin_bottom = -16.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+
+[node name="HOT" type="Label" parent="Flow/Panel_HOT" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 112.0
+margin_bottom = 16.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 4
+align = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Panel_COLD" type="Panel" parent="Flow" index="1"]
+
+editor/display_folded = true
+visible = false
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 400.0
+margin_top = -32.0
+margin_right = 512.0
+margin_bottom = -16.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+
+[node name="COLD" type="Label" parent="Flow/Panel_COLD" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 112.0
+margin_bottom = 16.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 4
+align = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Panel_GREEN" type="Panel" parent="Flow" index="2"]
+
+editor/display_folded = true
+visible = false
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 240.0
+margin_top = -32.0
+margin_right = 352.0
+margin_bottom = -16.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+
+[node name="GREEN" type="Label" parent="Flow/Panel_GREEN" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 112.0
+margin_bottom = 16.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 4
+align = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Panel_MIX" type="Panel" parent="Flow" index="3"]
+
+editor/display_folded = true
+visible = false
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 240.0
+margin_top = 224.0
+margin_right = 352.0
+margin_bottom = 240.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+
+[node name="MIX" type="Label" parent="Flow/Panel_MIX" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 112.0
+margin_bottom = 16.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 4
+align = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="back_hot" type="Panel" parent="Flow" index="4"]
+
+editor/display_folded = true
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 128.0
+margin_right = 144.0
+margin_bottom = 96.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+_sections_unfolded = [ "Visibility" ]
+
+[node name="color_hot" type="ColorRect" parent="Flow/back_hot" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 16.0
+margin_bottom = 96.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+color = Color( 1, 1, 1, 1 )
+_sections_unfolded = [ "Material", "Visibility" ]
+
+[node name="back_hot_and_cold" type="Panel" parent="Flow" index="5"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 128.0
+margin_top = 96.0
+margin_right = 480.0
+margin_bottom = 112.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+_sections_unfolded = [ "Visibility" ]
+
+[node name="color_hot2" type="ColorRect" parent="Flow/back_hot_and_cold" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 160.0
+margin_bottom = 16.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+color = Color( 1, 1, 1, 1 )
+_sections_unfolded = [ "Rect" ]
+
+[node name="color_cold2" type="ColorRect" parent="Flow/back_hot_and_cold" index="1"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 192.0
+margin_right = 352.0
+margin_bottom = 16.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+color = Color( 1, 1, 1, 1 )
+_sections_unfolded = [ "Rect" ]
+
+[node name="back_cold" type="Panel" parent="Flow" index="6"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 464.0
+margin_right = 480.0
+margin_bottom = 96.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+
+[node name="color_cold" type="ColorRect" parent="Flow/back_cold" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 16.0
+margin_bottom = 96.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+color = Color( 1, 1, 1, 1 )
+
+[node name="back_mix" type="Panel" parent="Flow" index="7"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 288.0
+margin_top = 112.0
+margin_right = 304.0
+margin_bottom = 192.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+
+[node name="color_mix" type="ColorRect" parent="Flow/back_mix" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = -16.0
+margin_right = 32.0
+margin_bottom = 80.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+color = Color( 0.6, 0.2, 0.4, 1 )
+_sections_unfolded = [ "Theme", "Visibility" ]
+
+[node name="back_mix2" type="Panel" parent="Flow" index="8"]
+
+editor/display_folded = true
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 96.0
+margin_top = 176.0
+margin_right = 512.0
+margin_bottom = 192.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+
+[node name="color_mix2" type="ColorRect" parent="Flow/back_mix2" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 416.0
+margin_bottom = 16.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+color = Color( 0.6, 0.2, 0.4, 1 )
+
+[node name="back_green_debug" type="Panel" parent="Flow" index="9"]
+
+editor/display_folded = true
+visible = false
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 288.0
+margin_right = 304.0
+margin_bottom = 96.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+
+[node name="color_green" type="ColorRect" parent="Flow/back_green_debug" index="0"]
+
+visible = false
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 16.0
+margin_bottom = 96.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+color = Color( 1, 1, 1, 1 )
+_sections_unfolded = [ "Visibility" ]
+
+[connection signal="pressed" from="Handles/add_hot" to="." method="_on_add_hot_pressed"]
+
+[connection signal="pressed" from="Handles/sub_hot" to="." method="_on_sub_hot_pressed"]
+
+[connection signal="pressed" from="Handles/add_cold" to="." method="_on_add_cold_pressed"]
+
+[connection signal="pressed" from="Handles/sub_cold" to="." method="_on_sub_cold_pressed"]
+
+[connection signal="pressed" from="Handles/add_green" to="." method="_on_add_green_pressed"]
+
+[connection signal="pressed" from="Handles/sub_green" to="." method="_on_sub_green_pressed"]
+
+
